@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name":"Book 1",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg"
+    },
+    {
+        "id":1,
+        "name":"Book 1",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg"
+    },
+    {
+        "id":1,
+        "name":"Book 1",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg"
+    },
+    {
+        "id":2,
+        "name":"Book 2",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg"
+    },
+    {
+        "id":3,
+        "name":"Book 3",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg"
+    },
+    {
+        "id":4,
+        "name":"Book 4",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":1200,
+        "category":"Song",
+        "image":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg"
+    },
+    {
+        "id":5,
+        "name":"Book 5",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":200,
+        "category":"Food",
+        "image":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg"
+    },
+    {
+        "id":6,
+        "name":"Book 6",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg"
+    },
+    {
+        "id":7,
+        "name":"Book 7",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg"
+    }
+]
