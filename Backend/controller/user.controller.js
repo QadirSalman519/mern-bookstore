@@ -17,7 +17,11 @@ export const signUp = async (req,resp)=>{
             password:hashPassword
         })
         await createdUser.save()
-        return resp.status(200).json({message:'User Created Successfully!'})
+        return resp.status(200).json({message:'User Created Successfully!',user:{
+            _id:createdUser._id,
+            name:createdUser.name,
+            email:createdUser.email
+        }})
     } catch (error) {
         console.log(error)
         return resp.status(500).json({message:'Internal Server Error',error:error})

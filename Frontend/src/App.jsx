@@ -1,3 +1,4 @@
+import { Toaster } from 'react-hot-toast';
 import Signup from './components/Signup';
 import Course from './courses/Courses';
 import Home from './home/Home';
@@ -11,6 +12,7 @@ function App() {
         <Route path='/course' element={<Course />} />
         <Route path='/signup' element={<Signup />} />
       </Routes>
+      <Toaster/>
     </div>
   )
 }
