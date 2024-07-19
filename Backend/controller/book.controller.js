@@ -1,8 +1,8 @@
 import Book from "../model/book.model.js";
 
-export const getBook = (req, resp) => {
+export const getBook = async (req, resp) => {
     try {
-        const book = Book.find()
+        const book = await Book.find()
         resp.status(200).json(book)
     } catch (error) {
         console.log(error)
