@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useForm } from "react-hook-form"
 import axios from "axios"
-import toast, { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
 
 function Login() {
     const {
@@ -20,11 +20,16 @@ function Login() {
             console.log(res.data)
             if(res.data){
                 toast.success("LoggedIn Successfully!")
+                document.getElementById("my_modal_3").close()
+                setTimeout(()=>{
+                    window.location.reload()
+                    localStorage.setItem("User",JSON.stringify(res.data.user))
+                },1500)
             }
-            localStorage.setItem("User",JSON.stringify(res.data.user))
         }).catch((error)=>{
             if(error.response){
                 toast.error(error.response.data.message)
+                setTimeout(()=>{},1500)
             }
         })
     }

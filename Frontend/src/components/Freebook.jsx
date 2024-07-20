@@ -53,7 +53,7 @@ function Freebook() {
           }
         }
         getBook();
-      })
+      },[])
 
     console.log(book);
     return (

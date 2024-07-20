@@ -17,7 +17,7 @@ function Course() {
       }
     }
     getBook();
-  })
+  },[])
 
   return (
     <>
